@@ -1,0 +1,405 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C447327206841EA00370D22 /* PickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C447325206841EA00370D22 /* PickerViewController.swift */; };
+		4C447328206841EA00370D22 /* PickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C447326206841EA00370D22 /* PickerViewController.xib */; };
+		4C44732A2069871200370D22 /* KeyValueTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4473292069871200370D22 /* KeyValueTableViewCell.swift */; };
+		4C44732C206998A200370D22 /* ColorTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C44732B206998A200370D22 /* ColorTableViewCell.swift */; };
+		4C44732F2069EF5F00370D22 /* TestPopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C44732D2069EF5F00370D22 /* TestPopupViewController.swift */; };
+		4C4473302069EF5F00370D22 /* TestPopupViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C44732E2069EF5F00370D22 /* TestPopupViewController.xib */; };
+		4C4473362069F69900370D22 /* NewConstraintViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4473352069F69900370D22 /* NewConstraintViewController.swift */; };
+		4C868460206716C000F1A877 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C86845F206716C000F1A877 /* AppDelegate.swift */; };
+		4C868462206716C000F1A877 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C868461206716C000F1A877 /* ViewController.swift */; };
+		4C868465206716C000F1A877 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C868463206716C000F1A877 /* Main.storyboard */; };
+		4C868467206716C000F1A877 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C868466206716C000F1A877 /* Assets.xcassets */; };
+		4C86846A206716C000F1A877 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C868468206716C000F1A877 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4C447321206717E600370D22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C44731D206717E600370D22 /* PopItUp.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4C8684402067122600F1A877;
+			remoteInfo = PopItUp;
+		};
+		4C447323206717F700370D22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C44731D206717E600370D22 /* PopItUp.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C86843F2067122600F1A877;
+			remoteInfo = PopItUp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4C44731D206717E600370D22 /* PopItUp.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = PopItUp.xcodeproj; path = ../../PopItUp.xcodeproj; sourceTree = "<group>"; };
+		4C447325206841EA00370D22 /* PickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewController.swift; sourceTree = "<group>"; };
+		4C447326206841EA00370D22 /* PickerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PickerViewController.xib; sourceTree = "<group>"; };
+		4C4473292069871200370D22 /* KeyValueTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyValueTableViewCell.swift; sourceTree = "<group>"; };
+		4C44732B206998A200370D22 /* ColorTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTableViewCell.swift; sourceTree = "<group>"; };
+		4C44732D2069EF5F00370D22 /* TestPopupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestPopupViewController.swift; sourceTree = "<group>"; };
+		4C44732E2069EF5F00370D22 /* TestPopupViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestPopupViewController.xib; sourceTree = "<group>"; };
+		4C4473352069F69900370D22 /* NewConstraintViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewConstraintViewController.swift; sourceTree = "<group>"; };
+		4C86845C206716C000F1A877 /* PopItUp_iOS_sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PopItUp_iOS_sample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C86845F206716C000F1A877 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4C868461206716C000F1A877 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4C868464206716C000F1A877 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4C868466206716C000F1A877 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4C868469206716C000F1A877 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4C86846B206716C000F1A877 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C868459206716C000F1A877 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C44731E206717E600370D22 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C447322206717E600370D22 /* PopItUp.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C868453206716C000F1A877 = {
+			isa = PBXGroup;
+			children = (
+				4C86845E206716C000F1A877 /* PopItUp_iOS_sample */,
+				4C86845D206716C000F1A877 /* Products */,
+				4C44731D206717E600370D22 /* PopItUp.xcodeproj */,
+			);
+			sourceTree = "<group>";
+		};
+		4C86845D206716C000F1A877 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C86845C206716C000F1A877 /* PopItUp_iOS_sample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C86845E206716C000F1A877 /* PopItUp_iOS_sample */ = {
+			isa = PBXGroup;
+			children = (
+				4C86845F206716C000F1A877 /* AppDelegate.swift */,
+				4C868461206716C000F1A877 /* ViewController.swift */,
+				4C868463206716C000F1A877 /* Main.storyboard */,
+				4C868466206716C000F1A877 /* Assets.xcassets */,
+				4C868468206716C000F1A877 /* LaunchScreen.storyboard */,
+				4C86846B206716C000F1A877 /* Info.plist */,
+				4C447325206841EA00370D22 /* PickerViewController.swift */,
+				4C447326206841EA00370D22 /* PickerViewController.xib */,
+				4C4473292069871200370D22 /* KeyValueTableViewCell.swift */,
+				4C44732B206998A200370D22 /* ColorTableViewCell.swift */,
+				4C44732D2069EF5F00370D22 /* TestPopupViewController.swift */,
+				4C44732E2069EF5F00370D22 /* TestPopupViewController.xib */,
+				4C4473352069F69900370D22 /* NewConstraintViewController.swift */,
+			);
+			path = PopItUp_iOS_sample;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C86845B206716C000F1A877 /* PopItUp_iOS_sample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C86846E206716C000F1A877 /* Build configuration list for PBXNativeTarget "PopItUp_iOS_sample" */;
+			buildPhases = (
+				4C868458206716C000F1A877 /* Sources */,
+				4C868459206716C000F1A877 /* Frameworks */,
+				4C86845A206716C000F1A877 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C447324206717F700370D22 /* PBXTargetDependency */,
+			);
+			name = PopItUp_iOS_sample;
+			productName = PopItUp_iOS_sample;
+			productReference = 4C86845C206716C000F1A877 /* PopItUp_iOS_sample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C868454206716C000F1A877 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "fritzgerald muiseroux";
+				TargetAttributes = {
+					4C86845B206716C000F1A877 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4C868457206716C000F1A877 /* Build configuration list for PBXProject "PopItUp_iOS_sample" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4C868453206716C000F1A877;
+			productRefGroup = 4C86845D206716C000F1A877 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 4C44731E206717E600370D22 /* Products */;
+					ProjectRef = 4C44731D206717E600370D22 /* PopItUp.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				4C86845B206716C000F1A877 /* PopItUp_iOS_sample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		4C447322206717E600370D22 /* PopItUp.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = PopItUp.framework;
+			remoteRef = 4C447321206717E600370D22 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C86845A206716C000F1A877 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C86846A206716C000F1A877 /* LaunchScreen.storyboard in Resources */,
+				4C4473302069EF5F00370D22 /* TestPopupViewController.xib in Resources */,
+				4C868467206716C000F1A877 /* Assets.xcassets in Resources */,
+				4C447328206841EA00370D22 /* PickerViewController.xib in Resources */,
+				4C868465206716C000F1A877 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C868458206716C000F1A877 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C4473362069F69900370D22 /* NewConstraintViewController.swift in Sources */,
+				4C44732C206998A200370D22 /* ColorTableViewCell.swift in Sources */,
+				4C44732F2069EF5F00370D22 /* TestPopupViewController.swift in Sources */,
+				4C447327206841EA00370D22 /* PickerViewController.swift in Sources */,
+				4C868462206716C000F1A877 /* ViewController.swift in Sources */,
+				4C868460206716C000F1A877 /* AppDelegate.swift in Sources */,
+				4C44732A2069871200370D22 /* KeyValueTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C447324206717F700370D22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PopItUp;
+			targetProxy = 4C447323206717F700370D22 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4C868463206716C000F1A877 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C868464206716C000F1A877 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4C868468206716C000F1A877 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C868469206716C000F1A877 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4C86846C206716C000F1A877 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4C86846D206716C000F1A877 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C86846F206716C000F1A877 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PopItUp_iOS_sample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fitjilab.PopItUp-iOS-sample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4C868470206716C000F1A877 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PopItUp_iOS_sample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fitjilab.PopItUp-iOS-sample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C868457206716C000F1A877 /* Build configuration list for PBXProject "PopItUp_iOS_sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C86846C206716C000F1A877 /* Debug */,
+				4C86846D206716C000F1A877 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C86846E206716C000F1A877 /* Build configuration list for PBXNativeTarget "PopItUp_iOS_sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C86846F206716C000F1A877 /* Debug */,
+				4C868470206716C000F1A877 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C868454206716C000F1A877 /* Project object */;
+}

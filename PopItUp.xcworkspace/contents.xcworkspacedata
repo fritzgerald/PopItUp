@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "container:PopItUp.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Example/PopItUp_iOS_sample/PopItUp_iOS_sample.xcodeproj">
+   </FileRef>
+</Workspace>

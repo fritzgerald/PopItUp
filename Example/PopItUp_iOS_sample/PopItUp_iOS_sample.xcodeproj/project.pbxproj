@@ -14,6 +14,8 @@
 		4C44732F2069EF5F00370D22 /* TestPopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C44732D2069EF5F00370D22 /* TestPopupViewController.swift */; };
 		4C4473302069EF5F00370D22 /* TestPopupViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C44732E2069EF5F00370D22 /* TestPopupViewController.xib */; };
 		4C4473362069F69900370D22 /* NewConstraintViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4473352069F69900370D22 /* NewConstraintViewController.swift */; };
+		4C447338206A011200370D22 /* PopItUp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C447322206717E600370D22 /* PopItUp.framework */; };
+		4C44733A206A012D00370D22 /* PopItUp.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4C447322206717E600370D22 /* PopItUp.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		4C868460206716C000F1A877 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C86845F206716C000F1A877 /* AppDelegate.swift */; };
 		4C868462206716C000F1A877 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C868461206716C000F1A877 /* ViewController.swift */; };
 		4C868465206716C000F1A877 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C868463206716C000F1A877 /* Main.storyboard */; };
@@ -36,7 +38,28 @@
 			remoteGlobalIDString = 4C86843F2067122600F1A877;
 			remoteInfo = PopItUp;
 		};
+		4C44733B206A012D00370D22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C44731D206717E600370D22 /* PopItUp.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C86843F2067122600F1A877;
+			remoteInfo = PopItUp;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4C44733D206A012D00370D22 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				4C44733A206A012D00370D22 /* PopItUp.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		4C44731D206717E600370D22 /* PopItUp.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = PopItUp.xcodeproj; path = ../../PopItUp.xcodeproj; sourceTree = "<group>"; };
@@ -61,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C447338206A011200370D22 /* PopItUp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,12 +99,20 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		4C447337206A011200370D22 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		4C868453206716C000F1A877 = {
 			isa = PBXGroup;
 			children = (
 				4C86845E206716C000F1A877 /* PopItUp_iOS_sample */,
 				4C86845D206716C000F1A877 /* Products */,
 				4C44731D206717E600370D22 /* PopItUp.xcodeproj */,
+				4C447337206A011200370D22 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -122,11 +154,13 @@
 				4C868458206716C000F1A877 /* Sources */,
 				4C868459206716C000F1A877 /* Frameworks */,
 				4C86845A206716C000F1A877 /* Resources */,
+				4C44733D206A012D00370D22 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				4C447324206717F700370D22 /* PBXTargetDependency */,
+				4C44733C206A012D00370D22 /* PBXTargetDependency */,
 			);
 			name = PopItUp_iOS_sample;
 			productName = PopItUp_iOS_sample;
@@ -220,6 +254,11 @@
 			isa = PBXTargetDependency;
 			name = PopItUp;
 			targetProxy = 4C447323206717F700370D22 /* PBXContainerItemProxy */;
+		};
+		4C44733C206A012D00370D22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PopItUp;
+			targetProxy = 4C44733B206A012D00370D22 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -353,12 +392,17 @@
 		4C86846F206716C000F1A877 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = PopItUp_iOS_sample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.fitjilab.PopItUp-iOS-sample";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -367,12 +411,16 @@
 		4C868470206716C000F1A877 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = PopItUp_iOS_sample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.fitjilab.PopItUp-iOS-sample";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

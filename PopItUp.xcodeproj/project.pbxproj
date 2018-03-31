@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C642493206FBBF300A55588 /* PopupAnimatedTransitioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C642492206FBBF300A55588 /* PopupAnimatedTransitioning.swift */; };
 		4C8684452067122600F1A877 /* PopItUp.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C8684432067122600F1A877 /* PopItUp.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4C86844C206713B100F1A877 /* PopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C86844B206713B100F1A877 /* PopUpViewController.swift */; };
 		4C86844E2067146100F1A877 /* SlideAnimatedTransitioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C86844D2067146100F1A877 /* SlideAnimatedTransitioning.swift */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4C642492206FBBF300A55588 /* PopupAnimatedTransitioning.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopupAnimatedTransitioning.swift; sourceTree = "<group>"; };
 		4C8684402067122600F1A877 /* PopItUp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PopItUp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C8684432067122600F1A877 /* PopItUp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PopItUp.h; sourceTree = "<group>"; };
 		4C8684442067122600F1A877 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -56,13 +58,14 @@
 			children = (
 				4C8684432067122600F1A877 /* PopItUp.h */,
 				4C8684442067122600F1A877 /* Info.plist */,
+				4C642492206FBBF300A55588 /* PopupAnimatedTransitioning.swift */,
 				4C86844B206713B100F1A877 /* PopUpViewController.swift */,
 				4C86844D2067146100F1A877 /* SlideAnimatedTransitioning.swift */,
 				4C86844F2067149A00F1A877 /* ZoomAnimatedTransitioning.swift */,
 				4C868451206714AF00F1A877 /* UIViewController+PopitUp.swift */,
 			);
 			name = PopItUp;
-			path = Sources;
+			path = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,6 +150,7 @@
 			files = (
 				4C86844E2067146100F1A877 /* SlideAnimatedTransitioning.swift in Sources */,
 				4C86844C206713B100F1A877 /* PopUpViewController.swift in Sources */,
+				4C642493206FBBF300A55588 /* PopupAnimatedTransitioning.swift in Sources */,
 				4C868452206714AF00F1A877 /* UIViewController+PopitUp.swift in Sources */,
 				4C8684502067149A00F1A877 /* ZoomAnimatedTransitioning.swift in Sources */,
 			);
@@ -279,7 +283,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Sources/Info.plist;
+				INFOPLIST_FILE = Source/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -304,7 +308,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Sources/Info.plist;
+				INFOPLIST_FILE = Source/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";

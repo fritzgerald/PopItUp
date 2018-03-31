@@ -56,6 +56,14 @@ import PopItUp
 presentPopup(TestPopupViewController(), animated: true, completion: nil)
 ```
 
+### Dismiss the popup
+
+Because we use the standard iOS modal system all you have to do is call the **dismiss(animated:completion:)** method
+
+```swift
+dismiss(animated: true, completion: nil)
+```
+
 ### Customize the popup presentation
 
 The presentPopup method contains multiple parameters to customize the final result:

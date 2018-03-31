@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "PopItUp"
-  s.version      = "0.0.1"
+  s.version      = "1.0.0"
   s.summary      = "A framework to display your view controllers like popup"
 
   s.description  = <<-DESC

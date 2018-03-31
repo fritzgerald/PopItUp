@@ -1,7 +1,7 @@
 PopItUp
 =======
 
-**PopItUp** is a mini framework that a new method to **UIViewContollers** to help you present controllers like popup and have the same visual effect has a system popup would have.
+**PopItUp** is a mini framework that add a new method to **UIViewContollers** to help you present controllers like popup and have the same visual effect has a system popup would have.
 
 ## How does it work?
 PopItUp use new modal presentation style introduced in iOS 8 to present the presented view controller on top of the presenting on.

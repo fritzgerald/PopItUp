@@ -1,6 +1,9 @@
 PopItUp
 =======
 
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage) [![GitHub release](https://img.shields.io/github/release/fritzgerald/PopItUp.svg)](https://github.com/fritzgerald/PopItUp/releases) [![Swift 4.0](https://img.shields.io/badge/Swift-4.0-orange.svg?style=flat)](https://developer.apple.com/swift/)
+ [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![CocoaPods Compatible](https://img.shields.io/cocoapods/v/PopItUp.svg)](https://cocoapods.org/pods/PopItUp)
+
 **PopItUp** is a mini framework that add a new method to **UIViewContollers** to help you present controllers like popup and have the same visual effect has a system popup would have.
 
 ## How does it work?

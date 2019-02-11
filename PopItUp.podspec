@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "PopItUp"
-  s.version      = "1.0.1"
+  s.version      = "1.1.0"
   s.summary      = "A framework to display your view controllers like popup"
 
   s.description  = <<-DESC
@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
 
   s.license      = "MIT"
   s.author             = { "MUISEROUX Fritzgerald" => "f.muiseroux@gmail.com" }
-  s.social_media_url   = "https://twitter.com/FMuiseroux"
+  s.social_media_url   = "https://twitter.com/fitji911"
   s.platform     = :ios, "9.0"
   s.source       = { :git => "https://github.com/fritzgerald/PopItUp.git", :tag => "#{s.version}" }
   s.source_files  = "Source/*.swift"

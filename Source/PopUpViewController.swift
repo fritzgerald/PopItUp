@@ -25,7 +25,7 @@
 import UIKit
 
 public enum PopupBackgroundStyle {
-    case blur(UIBlurEffectStyle)
+    case blur(UIBlurEffect.Style)
     case color(UIColor)
 }
 
@@ -86,7 +86,7 @@ extension PopupBackgroundStyle {
         return view
     }
 
-    private func createBlurView(_ style: UIBlurEffectStyle) -> UIView {
+    private func createBlurView(_ style: UIBlurEffect.Style) -> UIView {
         let blurEffect = UIBlurEffect(style: style)
         let view = UIVisualEffectView(effect: blurEffect)
         return view
@@ -230,11 +230,11 @@ extension PopUpViewController {
     }
 
     private func setupContainedViewController() {
-        containedViewContoller.willMove(toParentViewController: self)
+        containedViewContoller.willMove(toParent: self)
         containedViewContoller.view.translatesAutoresizingMaskIntoConstraints = false
         view.addSubview(containedViewContoller.view)
-        addChildViewController(containedViewContoller)
-        containedViewContoller.didMove(toParentViewController: self)
+        addChild(containedViewContoller)
+        containedViewContoller.didMove(toParent: self)
 
         addDefaultConstraints(containedViewContoller.view)
         addCustomConstraints()

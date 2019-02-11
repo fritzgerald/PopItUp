@@ -11,7 +11,7 @@ import PopItUp
 
 enum RowDefinition {
     case backgroundType(PopupBackgroundStyle)
-    case blurStyle(UIBlurEffectStyle)
+    case blurStyle(UIBlurEffect.Style)
     case colorPicker(UIColor)
     case transitionType(PopupTransition)
     case slideOrigin(PopupSlideAnimationOrigin)
@@ -19,7 +19,7 @@ enum RowDefinition {
     case constraint(PopupConstraint)
 }
 
-extension UIBlurEffectStyle {
+extension UIBlurEffect.Style {
     var strValue: String {
         switch self {
         case .dark:
@@ -37,7 +37,7 @@ extension UIBlurEffectStyle {
         }
     }
 
-    static var allValues: [UIBlurEffectStyle] {
+    static var allValues: [UIBlurEffect.Style] {
         return [.extraLight, .light, .dark, .regular, .prominent]
     }
 }
@@ -189,10 +189,10 @@ extension ViewController: UITableViewDelegate {
     }
 
     func selectBlurType() {
-        let picker = PickerViewController(values: UIBlurEffectStyle.allValues.map { $0.strValue })
+        let picker = PickerViewController(values: UIBlurEffect.Style.allValues.map { $0.strValue })
         picker.completedWithIndex = { index in
 
-            if let effect = UIBlurEffectStyle(rawValue: index) {
+            if let effect = UIBlurEffect.Style(rawValue: index) {
                 self.backgroundType = .blur(effect)
             }
         }

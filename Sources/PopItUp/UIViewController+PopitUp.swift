@@ -39,7 +39,7 @@ public extension UIViewController {
         - autoDismiss: true if the popup can be dismiss by a tap outside is bounds, false otherwise
         - completion: The block to execute after the presentation finishes. This block has no return value and takes no parameters. You may specify nil for this parameter
     */
-    public func presentPopup(_ popupViewController: UIViewController,
+    func presentPopup(_ popupViewController: UIViewController,
                              animated: Bool,
                              backgroundStyle: PopupBackgroundStyle = .color(UIColor.black.withAlphaComponent(0.3)),
                              constraints: [PopupConstraint] = [.leading(8), .trailing(8)],

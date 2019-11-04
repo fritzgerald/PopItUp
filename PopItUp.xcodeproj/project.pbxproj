@@ -16,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2186D49023702FD900FB8D17 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = SOURCE_ROOT; };
 		4C642492206FBBF300A55588 /* PopupAnimatedTransitioning.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopupAnimatedTransitioning.swift; sourceTree = "<group>"; };
 		4C8684402067122600F1A877 /* PopItUp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PopItUp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C8684432067122600F1A877 /* PopItUp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PopItUp.h; sourceTree = "<group>"; };
@@ -56,6 +57,7 @@
 		4C8684422067122600F1A877 /* PopItUp */ = {
 			isa = PBXGroup;
 			children = (
+				2186D49023702FD900FB8D17 /* Package.swift */,
 				4C8684432067122600F1A877 /* PopItUp.h */,
 				4C8684442067122600F1A877 /* Info.plist */,
 				4C642492206FBBF300A55588 /* PopupAnimatedTransitioning.swift */,
@@ -65,7 +67,7 @@
 				4C868451206714AF00F1A877 /* UIViewController+PopitUp.swift */,
 			);
 			name = PopItUp;
-			path = Source;
+			path = Sources/PopItUp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -111,7 +113,7 @@
 				TargetAttributes = {
 					4C86843F2067122600F1A877 = {
 						CreatedOnToolsVersion = 9.2;
-						LastSwiftMigration = 1010;
+						LastSwiftMigration = 1110;
 						ProvisioningStyle = Manual;
 					};
 				};
@@ -122,6 +124,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 4C8684362067122600F1A877;
 			productRefGroup = 4C8684412067122600F1A877 /* Products */;
@@ -287,7 +290,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Source/Info.plist;
+				INFOPLIST_FILE = Sources/PopItUp/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -296,7 +299,7 @@
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -312,7 +315,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Source/Info.plist;
+				INFOPLIST_FILE = Sources/PopItUp/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -320,7 +323,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
